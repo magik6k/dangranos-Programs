@@ -30,7 +30,7 @@
  local base_conv_url = "http://dfpwm.magik6k.net/conv"
 
  if opts["a"] then
-     local base_conv_url = "http://dfpwm.magik6k.net/aconv"
+     base_conv_url = "http://dfpwm.magik6k.net/aconv"
      b_size = 12 * 1024
      base_bitrate = 48
  end
